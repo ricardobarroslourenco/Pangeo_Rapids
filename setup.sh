@@ -16,4 +16,5 @@ conda install mamba -n base -c conda-forge
 # Crates the rapids-pangeo conda environment with
 mamba create -n rapids-pangeo -c rapidsai -c nvidia -c conda-forge -c pyviz rapids=22.02 python=3.8 cudatoolkit=11.5 \
 dask dask-sql xarray netCDF4 bottleneck h5netcdf iris jupyterlab rioxarray satpy xarray-simlab xarray-spatial \
-xarray-topo xesmf datashader geoviews holoviews bokeh hvplot xarray_leaflet psy-view psy-reg earthpy
+xarray-topo xesmf datashader geoviews holoviews bokeh hvplot xarray_leaflet psy-view psy-reg earthpy dask-labextension \
+jupyterlab-nvdashboard intake arviz
